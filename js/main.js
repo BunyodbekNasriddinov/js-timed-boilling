@@ -17,7 +17,6 @@ elForm.addEventListener("submit", (evt) => {
       newText.textContent = elInputVal--;
 
       if (elInputVal < 3) {
-        console.log(newSpinner);
         newSpinner.style.backgroundColor = "#ff0000";
       }
     }, 1000);
